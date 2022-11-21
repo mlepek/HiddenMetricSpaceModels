@@ -1,0 +1,39 @@
+sredni p_s dla N=30000, gamma=3, i alfa=5 jest 0.225762
+sredni p_s dla N=3000, gamma=3, i alfa=5 jest 0.345229
+sredni p_s dla N=1000, gamma=3, i alfa=5 jest 0.428497
+sredni p_s dla N=10000, gamma=3, i alfa=5 jest 0.288474
+sredni p_s dla N=300, gamma=3, i alfa=5 jest 0.505704
+
+sredni p_s dla N=30000, gamma=2.8, i alfa=5 jest 0.426275
+sredni p_s dla N=10000, gamma=2.8, i alfa=5 jest 0.456436
+sredni p_s dla N=3000, gamma=2.8, i alfa=5 jest 0.47686
+sredni p_s dla N=1000, gamma=2.8, i alfa=5 jest 0.494594
+sredni p_s dla N=300, gamma=2.8, i alfa=5 jest 0.547509
+
+
+sredni p_s dla N=1000, gamma=2.5, i alfa=5 jest 0.537281
+sredni p_s dla N=3000, gamma=2.5, i alfa=5 jest 0.544817
+sredni p_s dla N=10000, gamma=2.5, i alfa=5 jest 0.556211
+sredni p_s dla N=30000, gamma=2.5, i alfa=5 jest 0.542933
+sredni p_s dla N=300, gamma=2.5, i alfa=5 jest 0.545099
+
+
+
+sredni p_s dla N=10000, gamma=2.2, i alfa=5 jest 0.3762
+sredni p_s dla N=30000, gamma=2.2, i alfa=5 jest 0.371269
+sredni p_s dla N=3000, gamma=2.2, i alfa=5 jest 0.367329
+sredni p_s dla N=1000, gamma=2.2, i alfa=5 jest 0.356194
+sredni p_s dla N=300, gamma=2.2, i alfa=5 jest 0.33915
+
+
+
+
+
+
+
+
+
+sredni p_s dla N=10000, gamma=2.8, i alfa=1.5 jest 0.499647
+sredni p_s dla N=10000, gamma=2.6, i alfa=1.5 jest 0.475087
+sredni p_s dla N=10000, gamma=2.4, i alfa=1.5 jest 0.416762
+sredni p_s dla N=10000, gamma=2.2, i alfa=1.5 jest 0.266388
