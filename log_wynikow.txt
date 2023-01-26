@@ -27,13 +27,44 @@ sredni p_s dla N=300, gamma=2.2, i alfa=5 jest 0.33915
 
 
 
-
-
-
-
-
-
 sredni p_s dla N=10000, gamma=2.8, i alfa=1.5 jest 0.499647
 sredni p_s dla N=10000, gamma=2.6, i alfa=1.5 jest 0.475087
 sredni p_s dla N=10000, gamma=2.4, i alfa=1.5 jest 0.416762
 sredni p_s dla N=10000, gamma=2.2, i alfa=1.5 jest 0.266388
+
+
+16 Jan 2023 (main6 - W GR bierzemy pod uwage tylko te apry wezlow, gdzie oba wezly maja stopien wiekszy od zera)
+
+sredni p_s dla N=1000, gamma=2.2, i alfa=5 jest 0.59995
+sredni p_s dla N=1000, gamma=3, i alfa=5 jest 0.544911
+sredni p_s dla N=1000, gamma=2.8, i alfa=5 jest 0.621792
+sredni p_s dla N=1000, gamma=2.5, i alfa=5 jest 0.668976
+
+sredni p_s dla N=10000, gamma=2.2, i alfa=5 jest 0.632106
+sredni p_s dla N=10000, gamma=2.8, i alfa=5 jest 0.597779
+sredni p_s dla N=10000, gamma=3, i alfa=5 jest 0.414252
+sredni p_s dla N=10000, gamma=2.5, i alfa=5 jest 0.695017
+
+Wniosek: niektóre krzywe poszły do gory, nawet wiecej niż wykikałoby to z wykresu w Nature, ale inne wciaz sa nizsze, chyba nie tedy droga
+
+
+26 Jan 2023, na podst. main7 (uwzglednienie rownan na finite-size effects)
+
+liczba instancji 1000 dla mniejszego N i 100 dla wiekszego N
+liczba powtorzen GR 10 000 dla kazdej instancji
+
+sredni p_s dla N=1000, gamma=2.2, i alfa=5 jest 0.272757
+sredni p_s dla N=1000, gamma=2.5, i alfa=5 jest 0.451064
+sredni p_s dla N=1000, gamma=2.8, i alfa=5 jest 0.384334
+sredni p_s dla N=1000, gamma=3, i alfa=5 jest 0.30201
+
+sredni p_s dla N=10000, gamma=2.2, i alfa=5 jest 0.339808
+sredni p_s dla N=10000, gamma=2.5, i alfa=5 jest 0.518405
+sredni p_s dla N=10000, gamma=2.8, i alfa=5 jest 0.374564
+sredni p_s dla N=10000, gamma=3, i alfa=5 jest 0.188896
+
+Wniosek: zasadniczo jakosciowo zachowanie krzywych jest zbiezne z podstawowymi wynikami, tj. dla malych gamm krzywe rosna wraz z N a dla duzych gamm krzywe maleja wraz z N. Jednak ogolny poziom success ratio wciaz jest nizszy niz w wynikach z Nature, a nawet jeszcze spadł. Dodatkowo problem ze zbyt malymi <k> generowanymi dla malych gamm pozostal w mocy, nie zostal rozwiazany.
+
+
+
+
