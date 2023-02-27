@@ -180,7 +180,7 @@ int main(int argc, char *argv[])
 	double alfa;
 	double gamma;
 
-	std::string path = "./data_topologie";
+	std::string path = "./data_topologie"; // uwaga, zmieniajac te sciezce pamietaj zmienic "extract erase", linie 271-275
 	
 	
 	//zliczmy pliki z tego folderu
@@ -205,7 +205,7 @@ int main(int argc, char *argv[])
 		fileCount++;
 		//std::cout << entry.path() << std::endl;
 		
-		cout << endl << "plik " << fileCount-1 << "/" << overallFileCount << endl;
+		cout << endl << "plik " << fileCount << "/" << overallFileCount << endl;
 		
 		std::cout << "analizuje " <<  entry.path() << std::endl;
 		
