@@ -686,7 +686,7 @@ int main(int argc, char *argv[])
 			{
 			
 				// sprawdzmy, czy wezly i oraz j uczestnicza w najwiekszym komponencie i tylko w tym wypadku je wypiszmy
-				if( membership_of_monomers.at(i) == etykieta_najwiekszego_klastra and membership_of_monomers.at(j) == etykieta_najwiekszego_klastra )
+				//if( membership_of_monomers.at(i) == etykieta_najwiekszego_klastra and membership_of_monomers.at(j) == etykieta_najwiekszego_klastra )
 				
 				// wypisujemy do topologii wszystkie krawedzie obojetnie do jakiego klastra naleza, czyli wypisujemy do pliku cala siec !
 				{
